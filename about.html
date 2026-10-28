@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>About Us - Meteor Store</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Specific Styles for About Page */
+        #about-head {
+            display: flex;
+            align-items: center;
+            padding: 80px;
+            background: #FFFFFF;
+            gap: 40px;
+        }
+
+        #about-head img {
+            width: 50%;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        #about-head div {
+            width: 50%;
+        }
+
+        #about-head h2 {
+            color: #0F172A;
+            font-size: 46px;
+            margin-bottom: 20px;
+        }
+
+        #about-head p {
+            font-size: 16px;
+            color: #64748B;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-transform: none;
+        }
+        
+        #about-head abbr {
+            color: #0F172A;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            text-transform: none;
+        }
+
+        #about-app {
+            text-align: center;
+            padding: 80px;
+            background: #F8FAFC;
+        }
+
+        #about-app h2 {
+            color: #0F172A;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 799px) {
+            #about-head {
+                flex-direction: column;
+                padding: 40px;
+            }
+            #about-head img, #about-head div {
+                width: 100%;
+            }
+            #about-app {
+                padding: 40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <section id="header">
+        <a href="index.html"><img src="img/logo4.png" class="logo" alt="Logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="about.html">About Us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <!-- PAGE HEADER -->
+    <section id="page-header">
+        <h2>#KnowUs</h2>
+        <p style="color: #cbd5e1; font-size: 16px; margin-top: 10px;">Đọc để hiểu thêm về Meteor Store</p>
+    </section>
+
+    <!-- ABOUT HEAD -->
+    <section id="about-head" class="section-p1">
+        <img src="img/bleachshop.webp" alt="About Meteor Store">
+        <div>
+            <h2>Chúng tôi là ai?</h2>
+            <p>Meteor Store là điểm đến lý tưởng cho những người đam mê thời trang mang phong cách manga và anime. Chúng tôi tự hào mang đến cho khách hàng những bộ sưu tập độc quyền, lấy cảm hứng từ các tác phẩm kinh điển và nổi tiếng nhất. Không chỉ đơn thuần là quần áo, mỗi sản phẩm tại Meteor Store là một tác phẩm nghệ thuật thể hiện cá tính, phong cách và sự tôn trọng đối với văn hóa pop.</p>
+            <p>Với sứ mệnh mang lại những trải nghiệm mua sắm tuyệt vời nhất, chúng tôi luôn chú trọng vào chất lượng sản phẩm, dịch vụ chăm sóc khách hàng tận tâm và các chương trình ưu đãi hấp dẫn. Hãy cùng Meteor Store tỏa sáng theo cách riêng của bạn!</p>
+            <abbr title="">Sự sáng tạo không có giới hạn, và phong cách của bạn cũng vậy. Hãy để Meteor Store đồng hành cùng bạn trên mọi nẻo đường.</abbr>
+            
+            <br><br>
+            
+            <marquee bgcolor="#E2E8F0" loop="-1" scrollamount="5" width="100%" style="padding: 10px 0; border-radius: 8px; color: #0F172A; text-transform: none;">Bộ sưu tập mới nhất vừa được ra mắt. Đặt hàng ngay hôm nay để nhận ưu đãi lên đến 50% và quà tặng độc quyền!</marquee>
+        </div>
+    </section>
+
+    <!-- ABOUT APP (Features reused) -->
+    <section id="feature" class="section-p1" style="background-color: #F8FAFC;">
+        <div class="fe-box">
+            <img src="img/feature/f1.png" alt="">
+            <h6>Miễn phí vận chuyển</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/feature/f2.png" alt="">
+            <h6>Đặt hàng trực tuyến</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/feature/f3.png" alt="">
+            <h6>Tiết kiệm tiền</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/feature/f4.png" alt="">
+            <h6>Khuyến mãi</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/feature/f5.png" alt="">
+            <h6>Hỗ trợ khách hàng</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/feature/f6.png" alt="">
+            <h6>Thanh toán an toàn</h6>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="section-p1">
+        <div class="col">
+            <img src="img/logo4.png" alt="">
+            <h4><strong>THÔNG TIN LIÊN HỆ</strong></h4>
+            <p><strong>SỐ CSKH:</strong> 0123456789 (8h - 22h)</p>
+            <p><strong>FOR BUSINESS:</strong> contact@meteor.vn</p>
+            <p><strong>WEBSITE:</strong> meteor.vn</p>
+            <div class="follow">
+                <h4><strong>FOLLOW US</strong></h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

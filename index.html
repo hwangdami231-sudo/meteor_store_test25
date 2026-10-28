@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Meteor Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.html"><img src="img/logo4.png" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <!--Home page-->
+    <section id="hero">
+        <h1>NEW COLLECTION</h1>
+        <button><a href="shop.html"> SHOP NOW </a></button>
+    </section>
+    <!--Feature-->
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/feature/f1.png" alt="">
+            <h6>Miễn phí vận chuyển</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/feature/f2.png" alt="">
+            <h6>Đặt hàng trực tuyến</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/feature/f3.png" alt="">
+            <h6>Tiết kiệm tiền</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/feature/f4.png" alt="">
+            <h6>Khuyến mãi</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/feature/f5.png" alt="">
+            <h6>Hỗ trợ khách hàng</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/feature/f6.png" alt="">
+            <h6>Thanh toán an toàn</h6>
+        </div>
+    </section>
+    <!--Product-->
+    <section id="product1" class="section-p1">
+        <h2>NEWEST ARRIVALS</h2>
+        <div class="pro-container" id="home-product-container">
+        </div>
+    </section>
+    <!--banner-->
+    <section id="banner" class="section-m1">
+        <h2>BRAND AWARENESS</h2>
+        <style>
+            .marquee-container {
+                width: 100%;
+                overflow: hidden;
+                white-space: nowrap;
+                padding: 20px 0;
+            }
+            .marquee-content {
+                display: inline-block;
+                animation: scroll-left 25s linear infinite;
+            }
+            .marquee-content img {
+                height: 250px;
+                object-fit: cover;
+                margin: 0 15px;
+                border-radius: 12px;
+                box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+                transition: transform 0.3s ease;
+            }
+            .marquee-content img:hover {
+                transform: scale(1.05);
+            }
+            @keyframes scroll-left {
+                0% { transform: translateX(0); }
+                100% { transform: translateX(-50%); }
+            }
+        </style>
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <img src="img/stb1.webp" alt="Banner 1">
+                <img src="img/stb2.webp" alt="Banner 2">
+                <img src="img/stb3.webp" alt="Banner 3">
+                <img src="img/b1.jpg" alt="Banner 4">
+                <img src="img/bleachshop.webp" alt="Banner 5">
+                <!-- Nhân đôi ảnh để vòng lặp chạy mượt mà -->
+                <img src="img/stb1.webp" alt="Banner 1">
+                <img src="img/stb2.webp" alt="Banner 2">
+                <img src="img/stb3.webp" alt="Banner 3">
+                <img src="img/b1.jpg" alt="Banner 4">
+                <img src="img/bleachshop.webp" alt="Banner 5">
+            </div>
+        </div>
+    </section>
+    <!--all collection-->
+    <section id="product1" class="section-p1">
+        <h2>NEWEST ARRIVALS</h2>
+        <div class="pro-container" id="featured-product-container">
+        </div>
+    </section>
+    <!--Footer-->
+    <footer id="section-p1">
+        <div class="col">
+            <img src="img/logo4.png" alt="">
+            <h4><strong>THÔNG TIN LIÊN HỆ</strong></h4>
+            <p><strong>SỐ CSKH:</strong> 0123456789 (8h - 22h)</p>
+            <p><strong>FOR BUSINESS:</strong> contact@meteor.vn</p>
+            <p><strong>WEBSITE:</strong> meteor.vn</p>
+            <div class="follow">
+                <h4><strong>FOLLOW US</strong></h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

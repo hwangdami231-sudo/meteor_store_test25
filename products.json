@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "name": "Atmospheric Burn T-Shirt",
+        "category": "T-shirt",
+        "brand": "Meteor",
+        "price": 25,
+        "rating": 5,
+        "main_img": "img/teetrc.png",
+        "hover_img": "img/teesau.png",
+        "description": "Embrace the cosmic void with the Atmospheric Burn T-Shirt. Made from 100% premium cotton, this shirt features a stunning gradient graphic that catches the eye."
+    },
+    {
+        "id": 2,
+        "name": "Nebula Cargo Pants",
+        "category": "Pants",
+        "brand": "Meteor",
+        "price": 45,
+        "rating": 4,
+        "main_img": "img/supertrc.jpg",
+        "hover_img": "img/supersau1.jpg",
+        "description": "Durable, multi-pocket cargo pants crafted for the modern star-hopper. Water-resistant and incredibly comfortable."
+    },
+    {
+        "id": 3,
+        "name": "Supernova Hoodie",
+        "category": "Hoodie",
+        "brand": "Cosmic",
+        "price": 60,
+        "rating": 5,
+        "main_img": "img/supertrc2.jpg",
+        "hover_img": "img/supersau2.jpg",
+        "description": "Warm up in the freezing vacuum of space with this heavy-duty, ultra-soft fleece hoodie. Comes in dark navy."
+    },
+    {
+        "id": 4,
+        "name": "Eclipse Graphic Tee",
+        "category": "T-shirt",
+        "brand": "Meteor",
+        "price": 20,
+        "rating": 5,
+        "main_img": "img/cantee.png",
+        "hover_img": "img/cantee.png",
+        "description": "A minimalist black tee featuring the rare eclipse cycle. Perfect for casual cosmic encounters."
+    },
+    {
+        "id": 5,
+        "name": "Star Shooter Windbreaker",
+        "category": "Outerwear",
+        "brand": "Meteor",
+        "price": 75,
+        "rating": 5,
+        "main_img": "img/stb1.webp",
+        "hover_img": "img/stb3.webp",
+        "description": "Keep warm while looking fresh with the Star Shooter Windbreaker Jacket by Carre. Featuring printed graphics with dropped shoulders for that laid-back look. While the full zip close, elastic trims, and contrast panels add dimension for a striking look. Perfect for any occasion so cop yours today while stocks last."
+    },
+    {
+        "id": 6,
+        "name": "Lunar Tracks",
+        "category": "Pants",
+        "brand": "Cosmic",
+        "price": 35,
+        "rating": 4,
+        "main_img": "img/supertrc.jpg",
+        "hover_img": "img/supersau1.jpg",
+        "description": "Relax in the low-gravity lounge with these breathable track pants. Complete with neon blue side stripes."
+    },
+    {
+        "id": 7,
+        "name": "Dark Matter Pullover",
+        "category": "Hoodie",
+        "brand": "Meteor",
+        "price": 55,
+        "rating": 5,
+        "main_img": "img/supertrc2.jpg",
+        "hover_img": "img/supersau2.jpg",
+        "description": "It pulls everything in. This premium cotton-poly blend pullover is impossible to resist."
+    },
+    {
+        "id": 8,
+        "name": "Astral Sneakers",
+        "category": "Shoes",
+        "brand": "Cosmic",
+        "price": 120,
+        "rating": 4,
+        "main_img": "img/cantee.png",
+        "hover_img": "img/cantee.png",
+        "description": "Defy gravity. The Astral Sneakers feature responsive cushioning and a sleek, stardust-inspired design."
+    }
+]

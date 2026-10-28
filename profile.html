@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Meteor Store - Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.html"><img src="img/logo4.png" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#MY PROFILE</h2>
+        <p>Thông tin cá nhân & Lịch sử đơn hàng</p>
+    </section>
+
+    <section id="profile-page" class="section-p1">
+        <div class="profile-container">
+            <!-- Basic User Info -->
+            <div class="profile-sidebar">
+                <div class="user-card">
+                    <img src="img/b1.jpg" alt="User Avatar" class="profile-avatar">
+                    <h3 id="profile-name">Đang tải...</h3>
+                    <p id="profile-email">Đang tải...</p>
+                    <button class="normal profile-logout-btn" id="profile-logout-btn">Đăng xuất</button>
+                </div>
+            </div>
+
+            <!-- Order History -->
+            <div class="profile-content">
+                <h3>Lịch sử đơn hàng</h3>
+                <div class="order-history-box" id="order-history-box">
+                    <table width="100%">
+                        <thead>
+                            <tr>
+                                <td>Mã Đơn</td>
+                                <td>Ngày Đặt</td>
+                                <td>Sản Phẩm</td>
+                                <td>Tổng Tiền</td>
+                                <td>Trạng Thái</td>
+                            </tr>
+                        </thead>
+                        <tbody id="order-history-tbody">
+                            <!-- JS renders order history here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="section-p1">
+        <div class="col">
+            <img src="img/logo2.png" alt="">
+            <h4><strong>THÔNG TIN LIÊN HỆ</strong></h4>
+            <p><strong>SỐ CSKH:</strong> 0123456789 (8h - 22h)</p>
+            <p><strong>FOR BUSINESS:</strong> contact@meteor.vn</p>
+            <p><strong>WEBSITE:</strong> meteor.vn</p>
+            <div class="follow">
+                <h4><strong>FOLLOW US</strong></h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

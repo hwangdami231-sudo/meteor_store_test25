@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Meteor Store - Thanh Toán</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.html"><img src="img/logo4.png" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#THANH TOÁN</h2>
+        <p>Hoàn tất đơn hàng của bạn</p>
+    </section>
+
+    <section id="checkout-page" class="section-p1">
+        <div class="checkout-container">
+            <!-- Left Column: Form -->
+            <div class="checkout-form">
+                <h3>Thông tin giao hàng</h3>
+                <form id="order-form">
+                    <div class="form-group">
+                        <input type="text" id="chk-name" placeholder="Họ và tên" required>
+                    </div>
+                    <div class="form-group-row">
+                        <input type="email" id="chk-email" placeholder="Email" required>
+                        <input type="tel" id="chk-phone" placeholder="Số điện thoại" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="chk-address" placeholder="Địa chỉ giao hàng chi tiết" required>
+                    </div>
+
+                    <h3>Phương thức vận chuyển</h3>
+                    <div class="method-box">
+                        <label>
+                            <input type="radio" name="shipping" value="standard" checked> 
+                            <span>Giao hàng tiêu chuẩn (3-5 ngày) - <strong>Miễn phí</strong></span>
+                        </label>
+                        <label>
+                            <input type="radio" name="shipping" value="express"> 
+                            <span>Giao hàng hỏa tốc (1-2 ngày) - <strong>$5.00</strong></span>
+                        </label>
+                    </div>
+
+                    <h3>Phương thức thanh toán</h3>
+                    <div class="method-box">
+                        <label>
+                            <input type="radio" name="payment" value="cod" checked> 
+                            <span>Thanh toán khi nhận hàng (COD)</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="payment" value="banking"> 
+                            <span>Chuyển khoản ngân hàng</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="payment" value="card"> 
+                            <span>Thẻ tín dụng / Ghi nợ quốc tế</span>
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Right Column: Order Summary -->
+            <div class="checkout-summary">
+                <h3>Tóm tắt đơn hàng</h3>
+                <div id="checkout-items">
+                    <!-- Dynamic Items -->
+                </div>
+                <div class="summary-totals">
+                    <table>
+                        <tr>
+                            <td>Tạm tính</td>
+                            <td id="checkout-subtotal">$0</td>
+                        </tr>
+                        <tr>
+                            <td>Phí vận chuyển</td>
+                            <td id="checkout-shipping">$0</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Tổng cộng</strong></td>
+                            <td><strong id="checkout-total">$0</strong></td>
+                        </tr>
+                    </table>
+                    <button class="normal" id="place-order-btn">ĐẶT HÀNG NGAY</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="section-p1">
+        <div class="col">
+            <img src="img/logo2.png" alt="">
+            <h4><strong>THÔNG TIN LIÊN HỆ</strong></h4>
+            <p><strong>SỐ CSKH:</strong> 0123456789 (8h - 22h)</p>
+            <p><strong>FOR BUSINESS:</strong> contact@meteor.vn</p>
+            <p><strong>WEBSITE:</strong> meteor.vn</p>
+            <div class="follow">
+                <h4><strong>FOLLOW US</strong></h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
